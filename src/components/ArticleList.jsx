@@ -1,22 +1,11 @@
 import Article from "./Article";
 
-/**
- * ArticleList Component
- * Renders all blog articles.
- *
- * Parent Component:
- * - App
- *
- * Child Component:
- * - Article
- */
-
 function ArticleList({ posts }) {
   return (
     <main>
-      {posts.map((post) => (
+      {posts.map((post, index) => (
         <Article
-          key={post.id}
+          key={index}
           title={post.title}
           date={post.date}
           preview={post.preview}

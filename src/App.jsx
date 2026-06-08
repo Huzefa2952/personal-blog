@@ -5,26 +5,24 @@ import ArticleList from "./components/ArticleList";
 function App() {
   const posts = [
     {
-      id: 1,
-      title: "Getting Started with React",
+      title: "My First Blog Post",
       date: "June 8, 2026",
-      preview: "React makes building user interfaces simple and efficient."
+      preview: "This is my first blog post."
     },
     {
-      id: 2,
-      title: "Understanding Components",
+      title: "Learning React",
       date: "June 7, 2026",
-      preview: "Components help create reusable UI elements."
+      preview: "React makes UI development easier."
     }
   ];
 
   return (
     <div>
-      <Header name="Huzefa's Personal Blog" />
+      <Header name="My Personal Blog" />
 
       <About
         image="https://via.placeholder.com/150"
-        about="Welcome to my blog where I share my thoughts on technology, programming, and learning."
+        about="Welcome to my personal blog."
       />
 
       <ArticleList posts={posts} />

@@ -1,11 +1,3 @@
-/**
- * Header Component
- * Displays the blog title.
- *
- * Parent Component:
- * - App
- */
-
 function Header({ name }) {
   return (
     <header>

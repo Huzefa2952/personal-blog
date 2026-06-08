@@ -1,11 +1,3 @@
-/**
- * Article Component
- * Displays a single article preview.
- *
- * Parent Component:
- * - ArticleList
- */
-
 function Article({ title, date, preview }) {
   return (
     <article>
